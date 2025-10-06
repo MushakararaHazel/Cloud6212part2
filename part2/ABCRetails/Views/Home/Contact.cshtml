@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Contact Us";
+}
+
+<main class="container my-5">
+    <header aria-labelledby="contact-heading" class="mb-5 text-center">
+        <h1 id="contact-heading" class="text-pink"><i class="fas fa-envelope-open-text"></i> Contact Us</h1>
+        <p class="lead text-muted">We’d love to hear from you. Find our details and reach out below.</p>
+    </header>
+
+  
+    <section aria-labelledby="address-heading" class="card shadow-sm border-pink mb-4">
+        <div class="card-header bg-pink text-white">
+            <h2 id="address-heading" class="mb-0"><i class="fas fa-map-marker-alt"></i> Our Address</h2>
+        </div>
+        <div class="card-body">
+            <address>
+                <strong>ABC Retailers</strong><br />
+                144 Peter Rd, Ruimsig, Roodepoort, 1724 , South Africa<br />
+                <a href="mailto:info@abcretailers.co.za" class="text-pink fw-bold">
+                    <i class="fas fa-envelope"></i> info@abcretailers.co.za
+                </a><br />
+                <a href="tel:+27123456789" class="text-pink fw-bold">
+                    <i class="fas fa-phone"></i> +27123456789
+                </a>
+            </address>
+        </div>
+    </section>
+
+ 
+    <section aria-labelledby="hours-heading" class="card shadow-sm border-pink mb-4">
+        <div class="card-header bg-pink text-white">
+            <h2 id="hours-heading" class="mb-0"><i class="fas fa-clock"></i> Operational Hours</h2>
+        </div>
+        <div class="card-body">
+            <ul class="list-unstyled mb-0">
+                <li><b>Mon–Fri:</b> 08:00 – 17:30</li>
+                <li><b>Sat:</b> 09:00 – 14:00</li>
+                <li><b>Sun & Public Holidays:</b> Closed</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section aria-labelledby="enquiry-heading" class="card shadow-sm border-pink mb-4">
+        <div class="card-header bg-pink text-white">
+            <h2 id="enquiry-heading" class="mb-0"><i class="fas fa-paper-plane"></i> Enquiry Form</h2>
+        </div>
+        <div class="card-body">
+            <p>Please complete the form below and our team will get back to you.</p>
+
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBkT_V2k0GX7-MBl7YnUafVE_aLk4hibpOW6ngtNsuXY-v0w/viewform?embedded=true" width="640" height="438" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </section>
+
+
+    
+   Z 
+    <section aria-labelledby="map-heading" class="card shadow-sm border-pink">
+        <div class="card-header bg-pink text-white">
+            <h2 id="map-heading" class="mb-0"><i class="fas fa-map"></i> Find Us on Google Maps</h2>
+        </div>
+        <div class="card-body">
+            <p>The map reflects the address listed above.</p>
+            <div class="ratio ratio-16x9">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.3317464592146!2d27.871131400000007!3d-26.08808729999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e959ef3e4136a4b%3A0xa02690b870829d94!2s144%20Peter%20Rd%2C%20Ruimsig%2C%20Roodepoort%2C%201724!5e0!3m2!1sen!2sza!4v1757953943435!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+</main>
+
+<style>
+    /* Pink Theme */
+    .bg-pink {
+        background-color: #e83e8c !important;
+    }
+
+    .text-pink {
+        color: #e83e8c !important;
+    }
+
+    .border-pink {
+        border: 1px solid #e83e8c !important;
+    }
+
+    .card {
+        border-radius: 0.75rem;
+    }
+
+    address a {
+        display: block;
+        margin: .25rem 0;
+    }
+</style>
